@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw; /* Adjust the width as desired */
+    height: 90vh; /* Adjust the height as desired */
+    max-width: 600px; /* Set a maximum width to prevent the grid from becoming too large */
+    max-height: 600px; /* Set a maximum height to prevent the grid from becoming too large */
+    border: 1px solid black; /* Optional: Add borders to the container */
+  }
+  
+  .square {
+    width: calc(100% / 16); /* Adjust the width based on the grid size */
+    height: calc(100% / 16); /* Adjust the height based on the grid size */
+    border: 1px solid black; /* Optional: Add borders to the squares */
+  }
+  
+
+  #colorPickerContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #colorPickerContainer label {
+    margin-right: 10px;
+  }
+  
+  #colorPicker {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+
+  
